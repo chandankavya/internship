@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #2e19e4;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #1494c7;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(242, 246, 248);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+            margin: 50px 0;
+        }
+
+        .container h1 {
+            font-size: 50px;
+        }
+
+        .container p {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #0d4cab;
+            padding: 20px;
+            text-align: center;
+            color: rgb(222, 247, 255);
+        }
+
+        @media screen and (max-width: 768px) {
+            nav ul li {
+                margin-right: 10px;
+            }
+
+            .container h1 {
+                font-size: 30px;
+            }
+
+            .container p {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to PRODIFY INFO TECH</h1>
+        <img align="E-learning" src="img1.jpg" style="width:250px; height:250px;"></img><br>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>PRODIFY INFO TECH</h1><br>
+        <p>providing world class E-learning Experinence with real world internships.</p>
+    </div>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
